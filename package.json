@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtechlanka/vue-password-strength-meter.git#1b0a8704346e3f0c02fd85c5050bf4d522e8dcac"
+    "url": "git+https://github.com/ramila-mtech/password-srength-bar-vue.git"
   },
   "bugs": {
-    "url": "https://github.com/apertureless/vue-password-strength-meter/issues"
+    "url": "https://github.com/ramila-mtech/password-srength-bar-vue.git/issues"
   },
   "keywords": [
     "vue.js",

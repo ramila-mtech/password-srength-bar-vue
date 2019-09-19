@@ -367,7 +367,7 @@
     border-style: solid;
     border-width: 0 3px 0 5px;
     position: absolute;
-    width: 23%;
+    width: 25%;
        height: inherit;
     z-index: 10;
     height: 22;
@@ -380,7 +380,7 @@
     border-style: solid;
     border-width: 0 5px 0 3px;
     position: absolute;
-    width: 23%;
+    width: 25%;
     height: inherit;
     z-index: 10;
   }
