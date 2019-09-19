@@ -2,16 +2,15 @@
   "name": "vue-password-strength-meter",
   "version": "1.5.0",
   "description": "Interactive password strength meter based on zxcvbn",
-  "author": "Ramila Perera <ramila@mtechlanka.com>",
+  "author": "Jakub Juszczak <jakub@posteo.de>",
   "private": false,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramila-mtech/password-srength-bar-vue.git",
-    "directory": "dist"
+    "url": "git+ssh://git@github.com:apertureless/vue-password-strength-meter.git"
   },
   "bugs": {
-    "url": "https://github.com/ramila-mtech/password-srength-bar-vue.git/issues"
+    "url": "https://github.com/apertureless/vue-password-strength-meter/issues"
   },
   "keywords": [
     "vue.js",
@@ -29,8 +28,8 @@
     "build": "npm run release",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
-    "release": "cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.js && cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js",
-    "prepare": "npm run release"
+    "prepare": "npm run release",
+    "release": "cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.js && cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js"
   },
   "files": [
     "dist"
